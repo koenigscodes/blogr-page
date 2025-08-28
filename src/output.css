@@ -10,10 +10,8 @@
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
-    --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-gray-900: oklch(21% 0.034 264.665);
-    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-sm: 0.875rem;
@@ -37,7 +35,6 @@
     --radius-lg: 0.5rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --color-coral: #ff8f70;
   }
 }
 @layer base {
@@ -438,8 +435,8 @@
   .bg-\[url\(\'\.\/images\/bg-pattern-circles\.svg\'\)\] {
     background-image: url('./images/bg-pattern-circles.svg');
   }
-  .bg-\[url\(\'\.\/images\/bg-pattern-intro-mobile\.svg\'\)\] {
-    background-image: url('./images/bg-pattern-intro-mobile.svg');
+  .bg-\[url\(\'\/blogr-page\/images\/bg-pattern-intro-mobile\.svg\'\)\] {
+    background-image: url('/blogr-page/images/bg-pattern-intro-mobile.svg');
   }
   .from-\[hsl\(13_100\%_72\%\)\] {
     --tw-gradient-from: hsl(13 100% 72%);
@@ -820,9 +817,9 @@
       border-bottom-left-radius: 90px;
     }
   }
-  .sm\:bg-\[url\(\'\.\/images\/bg-pattern-intro-desktop\.svg\'\)\] {
+  .sm\:bg-\[url\(\'\/blogr-page\/images\/bg-pattern-intro-desktop\.svg\'\)\] {
     @media (width >= 40rem) {
-      background-image: url('./images/bg-pattern-intro-desktop.svg');
+      background-image: url('/blogr-page/images/bg-pattern-intro-desktop.svg');
     }
   }
   .sm\:\[background-size\:150\%\] {
